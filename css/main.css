@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000016;
+}
+
+.blockTopLeft {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #000050;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.blockBottomLeft {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #000050;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.blockCenterTop {
+  width: 600px;
+  height: 300px;
+  border: 2px solid #000050;
+  position: absolute;
+  top: 20px;
+  left: 500px;
+}
+
+.blockCenterBottom {
+  width: 600px;
+  height: 300px;
+  border: 2px solid #000050;
+  position: absolute;
+  bottom: 20px;
+  left: 500px;
+}
+
+.blockTopRight {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #000050;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.blockBottomRight {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #000050;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bloque {
+  border-radius: 20px;
+}
+
+/* Pacman */
+.pacman {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: yellow;
+  position: relative;
+}
+
+#player {
+  transition: .5s transform linear;
+}
